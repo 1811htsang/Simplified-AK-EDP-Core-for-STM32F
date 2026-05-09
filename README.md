@@ -4,6 +4,10 @@ This repository was created from the original AK firmware source code based on t
 
 The new source code is significantly simplified compared to the original, focusing on core runtime functionality and a lightweight application layer to support users in quickly adopting the event-driven programming (EDP) model.
 
+## Note
+
+Future work of this repository is now redirected to new repository [CIEDPC – Custom Independent Event-Driven Programming Core](https://github.com/1811htsang/CIEDPC-Custom-Independent-Event-Driven-Programming-Core.git) to implement a clean and modular EDP core that can be easily ported to different platforms, including STM32F103. The current repository will be archived after the new repository is fully set up and tested.
+
 ## Current Status
 
 As of the latest refactor, the STM32F103 port is organized around `Drivers/EDP` and core runtime stability.
